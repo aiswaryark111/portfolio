@@ -15,7 +15,7 @@ function ProjectCard({ project, index, onClick }) {
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       onClick={() => onClick(project)}
-      className="card group cursor-pointer relative overflow-hidden"
+      className="card group cursor-pointer relative overflow-hidden h-full flex flex-col"
       whileHover={{ y: -4 }}
       transition={{ duration: 0.3 }}
     >
@@ -85,7 +85,7 @@ function ProjectCard({ project, index, onClick }) {
       </div>
 
       {/* Footer */}
-      <div className="flex items-center justify-between pt-4 border-t border-ink-300">
+      <div className="flex items-center justify-between pt-4 border-t border-ink-300 mt-auto">
         <div className="flex gap-3">
           {project.github && (
             <a
@@ -148,7 +148,7 @@ function ProjectModal({ project, onClose }) {
             }}
           />
 
-          <div className="p-8">
+          <div className="p-4 md:p-8">
             {/* Header */}
             <div className="flex items-start justify-between mb-6">
               <div>
@@ -158,7 +158,7 @@ function ProjectModal({ project, onClose }) {
                 >
                   {project.subtitle}
                 </span>
-                <h3 className="font-serif text-3xl text-parchment font-bold">
+                <h3 className="font-serif text-xl md:text-3xl text-parchment font-bold">
                   {project.title}
                 </h3>
               </div>
@@ -262,11 +262,18 @@ export default function Projects() {
   const [selected, setSelected] = useState(null);
   const [filter, setFilter] = useState("all");
 
-  const filters = ["all", "mobile", "fullstack"];
+  const filters = ["all", "mobile", "web", "fullstack"];
   const filtered = projects.filter((p) => {
     if (filter === "all") return true;
     if (filter === "mobile")
       return p.tags.some((t) => t.toLowerCase().includes("native"));
+    if (filter === "web")
+      return p.tags.some(
+        (t) =>
+          t.toLowerCase().includes("gri/sasb/tcfd") ||
+          t.toLowerCase().includes("angular") ||
+          t.toLowerCase().includes("supabase"),
+      );
     if (filter === "fullstack")
       return p.tags.includes("NestJS") || p.tags.includes("Angular");
     return true;
@@ -275,7 +282,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section-padding relative overflow-hidden">
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
         03
       </div>
 
@@ -318,7 +325,7 @@ export default function Projects() {
         {/* Grid */}
         <motion.div
           layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch"
         >
           <AnimatePresence mode="popLayout">
             {filtered.map((project, i) => (
@@ -329,6 +336,7 @@ export default function Projects() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3 }}
+                className="h-full"
               >
                 <ProjectCard
                   project={project}

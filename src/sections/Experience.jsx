@@ -34,7 +34,7 @@ export default function Experience() {
       className="section-padding relative overflow-hidden bg-ink-50"
     >
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
         02
       </div>
 
@@ -65,7 +65,7 @@ export default function Experience() {
             animate={isInView ? "visible" : "hidden"}
             className="lg:col-span-1"
           >
-            <div className="sticky top-28">
+            <div className="lg:sticky top-28">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 bg-aqua/10 border border-aqua/30 flex items-center justify-center">
                   <Briefcase size={16} className="text-aqua" />

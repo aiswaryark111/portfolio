@@ -32,7 +32,7 @@ export default function About() {
   return (
     <section id="about" className="section-padding relative overflow-hidden">
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
         01
       </div>
 
@@ -69,14 +69,14 @@ export default function About() {
               balancing clean architecture with real delivery.
             </p>
             <p>
-              Currently completing my MSc in Computing Science at Griffith
-              College Dublin, deepening expertise in algorithms, system design,
-              and modern software engineering practices.
+              Recently completed my MSc in Computing Science at Griffith College
+              Dublin, deepening expertise in algorithms, system design, and
+              modern software engineering practices.
             </p>
           </motion.div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-3 gap-4 md:gap-8 mt-12">
             <StatCard value="3+" label="Years Experience" delay={2} />
             <StatCard value="5+" label="Projects Shipped" delay={3} />
             <StatCard value="85%" label="Test Coverage" delay={4} />

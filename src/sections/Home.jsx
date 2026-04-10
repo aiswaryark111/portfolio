@@ -102,11 +102,11 @@ export default function Home() {
       />
 
       {/* Side label */}
-      <div className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 -rotate-90 origin-center">
+      {/* <div className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 -rotate-90 origin-center">
         <span className="font-mono text-[10px] tracking-[0.4em] text-parchment/20 uppercase">
           Dublin, Ireland
         </span>
-      </div>
+      </div> */}
 
       <div className="max-w-5xl relative z-10">
         {/* Badge */}
@@ -199,12 +199,13 @@ export default function Home() {
           </a>
           <a
             href={links.email}
+            target="_blank"
             className="text-parchment/60 hover:text-aqua transition-colors duration-300"
           >
             <Mail size={18} />
           </a>
           <div className="w-16 h-px bg-parchment/20" />
-          <span className="font-mono text-xs text-parchment/55 tracking-widest">
+          <span className="font-mono text-xs text-parchment/55 tracking-widest sm:block">
             aiswaryark111@gmail.com
           </span>
         </motion.div>
@@ -229,9 +230,9 @@ export default function Home() {
       </motion.div>
 
       {/* Year tag */}
-      <div className="absolute bottom-10 left-6 md:left-12">
+      {/* <div className="absolute bottom-10 left-6 md:left-12">
         <span className="font-mono text-xs text-parchment/20">© 2025</span>
-      </div>
+      </div> */}
     </section>
   );
 }

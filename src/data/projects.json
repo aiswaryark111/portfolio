@@ -13,8 +13,8 @@
       "CSV export & 80%/100% budget threshold alerts",
       "Deployed on Vercel (frontend) & Render (backend)"
     ],
-    "github": "https://github.com/aiswaryark111",
-    "live": null,
+    "github": "https://github.com/aiswaryark111/MyExpenseTracker",
+    "live": "https://my-expense-tracker-liun.vercel.app",
     "featured": true,
     "color": "#FB7185"
   },
@@ -47,8 +47,8 @@
     "tags": ["React", "Redux", "Firebase", "Firestore", "GRI/SASB/TCFD"],
     "highlights": [
       "GRI, SASB & TCFD compliance reporting",
-      "Firebase Firestore real-time sync",
-      "Led module ownership post knowledge transfer",
+      "Real-time data sync via Firebase Firestore snapshot listeners",
+      "Mastered full ESG module via knowledge transfer and took sole ownership",
       "Client-specific ESG calculation logic",
       "Cross-functional team coordination"
     ],
@@ -63,7 +63,7 @@
     "subtitle": "Multi-Tenant Mobile Application",
     "description": "A React Native multi-tenant app for EV charging station discovery, real-time availability, and integrated payment processing with Redux state management.",
     "longDescription": "Built a production mobile application for EV charging station discovery and payment processing across multiple tenants. Managed complex application state with Redux and ensured reliability through comprehensive Jest testing.",
-    "tags": ["React Native", "Redux", "Jest", "Payment Processing"],
+    "tags": ["React Native", "Redux", "Jest", "Payment Processing", "Firebase"],
     "highlights": [
       "Multi-tenant architecture",
       "Real-time station availability",
