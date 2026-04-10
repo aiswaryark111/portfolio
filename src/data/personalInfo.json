@@ -1,0 +1,29 @@
+{
+  "name": "Aiswarya Radhakrishnan",
+  "title": "Full-Stack Software Engineer",
+  "tagline": "Building scalable systems at the intersection of clean code and real-world impact.",
+  "bio": "Full-Stack Software Engineer with an MSc (Honours) in Computing Science and 3 years of experience delivering production-grade applications across fintech, sustainability, and mobility domains. I specialize in React.js, NestJS, and end-to-end architecture — turning complex requirements into elegant, maintainable software.",
+  "location": "Dublin, Ireland",
+  "email": "aiswaryark111@gmail.com",
+  "phone": "+353 894356896",
+  "availability": "Open to opportunities",
+  "education": [
+    {
+      "degree": "MSc Computing Science (Honours)",
+      "institution": "Griffith College, Dublin",
+      "grade": "73%",
+      "year": "2024 – 2025"
+    },
+    {
+      "degree": "BTech Computer Science (Honours)",
+      "institution": "Adi Shankara Institute of Engineering and Technology",
+      "grade": "CGPA 8.89 / 10",
+      "year": "2017 – 2021"
+    }
+  ],
+  "award": {
+    "title": "Award of Excellence",
+    "description": "Recognized for consistently exceeding performance expectations and delivering exceptional value at Experion Technologies",
+    "year": "2023"
+  }
+}

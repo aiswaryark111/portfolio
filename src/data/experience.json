@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "role": "Software Engineer",
+    "company": "Experion Technologies",
+    "location": "Kerala, India",
+    "period": "Sep 2021 – Aug 2024",
+    "duration": "3 years",
+    "type": "Full-time",
+    "summary": "Led end-to-end ownership of critical modules across sustainability, mobility, and recruitment domains.",
+    "highlights": [
+      "Led end-to-end ownership of critical modules across sustainability, mobility, and recruitment domains, coordinating cross-functional teams",
+      "Acted as client liaison, gathering requirements and supporting technical specification development",
+      "Established code quality standards through reviews, reducing production bugs by 40% and mentoring 4 junior developers",
+      "Implemented Jest unit tests achieving 85% coverage, reducing production bugs by 35%",
+      "Developed enterprise platform for carbon emissions and ESG metrics with GRI, SASB, and TCFD compliance using React and Redux",
+      "Implemented Firebase backend with Firestore and snapshot listeners for real-time data synchronization",
+      "Built a multi-tenant React Native application for EV charging station discovery and payment processing",
+      "Designed and developed a full-stack talent acquisition portal featuring candidate shortlisting, interview scheduling, and applicant tracking",
+      "Built RESTful APIs with NestJS, implementing JWT authentication, role-based authorization, and Swagger documentation"
+    ],
+    "technologies": ["React", "React Native", "Angular", "NestJS", "PostgreSQL", "Firebase", "Redux", "Jest", "TypeScript"],
+    "metrics": [
+      { "label": "Bug Reduction", "value": "40%" },
+      { "label": "Test Coverage", "value": "85%" },
+      { "label": "Devs Mentored", "value": "4" },
+      { "label": "Domains", "value": "3" }
+    ]
+  }
+]

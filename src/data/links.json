@@ -1,0 +1,23 @@
+{
+  "github": "https://github.com/aiswaryark111",
+  "linkedin": "https://linkedin.com/in/aiswarya-radhakrishnan",
+  "email": "mailto:aiswaryark111@gmail.com",
+  "resume": "/Aiswarya_Radhakrishnan_Resume.pdf",
+  "social": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/aiswaryark111",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/aiswarya-radhakrishnan",
+      "icon": "linkedin"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:aiswaryark111@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "icon": "monitor",
+      "skills": [
+        { "name": "React.js", "level": 95 },
+        { "name": "React Native", "level": 88 },
+        { "name": "Angular", "level": 82 },
+        { "name": "TypeScript", "level": 90 },
+        { "name": "JavaScript", "level": 95 },
+        { "name": "HTML / CSS", "level": 92 }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "icon": "server",
+      "skills": [
+        { "name": "NestJS", "level": 90 },
+        { "name": "Express.js", "level": 85 },
+        { "name": "Node.js", "level": 88 },
+        { "name": "Python", "level": 72 },
+        { "name": "REST APIs", "level": 95 },
+        { "name": "JWT / Auth", "level": 88 }
+      ]
+    },
+    {
+      "id": "database",
+      "label": "Database & Cloud",
+      "icon": "database",
+      "skills": [
+        { "name": "PostgreSQL", "level": 88 },
+        { "name": "Firebase / Firestore", "level": 85 },
+        { "name": "MongoDB", "level": 78 },
+        { "name": "Supabase", "level": 82 },
+        { "name": "Google Cloud Platform", "level": 70 },
+        { "name": "TypeORM", "level": 80 }
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps & Tools",
+      "icon": "settings",
+      "skills": [
+        { "name": "Git / GitHub", "level": 92 },
+        { "name": "Azure Repos", "level": 85 },
+        { "name": "Jest (Testing)", "level": 88 },
+        { "name": "Agile / Scrum", "level": 92 },
+        { "name": "Docker", "level": 68 },
+        { "name": "Swagger / OpenAPI", "level": 85 }
+      ]
+    }
+  ],
+  "tools": ["Jira", "Postman", "Figma", "Vercel", "Render", "Jenkins", "Redux", "Socket.io", "Stripe", "Recharts"]
+}
