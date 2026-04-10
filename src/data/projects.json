@@ -16,7 +16,7 @@
     "github": "https://github.com/aiswaryark111",
     "live": null,
     "featured": true,
-    "color": "#2DD4BF"
+    "color": "#FB7185"
   },
   {
     "id": 2,
@@ -32,7 +32,8 @@
       "Map routing with OpenRouteService API",
       "Push notification integration"
     ],
-    "github": "https://github.com/aiswaryark111",
+    "github": null,
+    "academic": true,
     "live": null,
     "featured": true,
     "color": "#0EA5E9"

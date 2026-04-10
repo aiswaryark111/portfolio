@@ -6,8 +6,6 @@ import links from "../data/links.json";
 
 const ROLES = [
   "Full-Stack Engineer",
-  "Frontend Engineer ",
-  "Backend Engineer",
   "React Developer / React Native Developer",
 ];
 
@@ -35,7 +33,7 @@ function TypewriterText({ texts }) {
   }, [charIdx, deleting, idx, texts]);
 
   return (
-    <span className="text-aqua font-serif italic">
+    <span className="text-aqua font-serif">
       {display}
       <span className="animate-blink text-aqua/70">|</span>
     </span>
@@ -119,7 +117,7 @@ export default function Home() {
           className="flex items-center gap-3 mb-10"
         >
           <span className="w-2 h-2 rounded-full bg-aqua animate-pulse-slow" />
-          <span className="font-mono text-xs tracking-[0.3em] uppercase text-aqua/70">
+          <span className="font-semibold text-xs tracking-[0.3em] uppercase text-aqua/70">
             Available for opportunities
           </span>
         </motion.div>
@@ -129,11 +127,13 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif font-light text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-parchment leading-[0.95] mb-6"
+          className="font-serif font-semibold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-parchment leading-[0.95] mb-6"
         >
           Aiswarya
           <br />
-          <span className="italic text-parchment/60">Radhakrishnan</span>
+          <span className="font-serif font-semibold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-parchment/80">
+            Radhakrishnan
+          </span>
         </motion.h1>
 
         {/* Typewriter role */}
@@ -141,7 +141,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="font-serif text-2xl md:text-3xl text-parchment/70 mb-8 h-10"
+          className="font-serif text-2xl md:text-3xl text-parchment/90 mb-8 h-10"
         >
           <TypewriterText texts={ROLES} />
         </motion.div>
@@ -151,7 +151,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.45 }}
-          className="max-w-xl font-sans text-base text-parchment/50 leading-relaxed mb-12"
+          className="max-w-xl font-sans text-base text-parchment/80 leading-relaxed mb-12"
         >
           {personalInfo.tagline}
         </motion.p>
@@ -185,7 +185,7 @@ export default function Home() {
             href={links.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-parchment/40 hover:text-aqua transition-colors duration-300"
+            className="text-parchment/60 hover:text-aqua transition-colors duration-300"
           >
             <Github size={18} />
           </a>
@@ -193,18 +193,18 @@ export default function Home() {
             href={links.linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-parchment/40 hover:text-aqua transition-colors duration-300"
+            className="text-parchment/60 hover:text-aqua transition-colors duration-300"
           >
             <Linkedin size={18} />
           </a>
           <a
             href={links.email}
-            className="text-parchment/40 hover:text-aqua transition-colors duration-300"
+            className="text-parchment/60 hover:text-aqua transition-colors duration-300"
           >
             <Mail size={18} />
           </a>
           <div className="w-16 h-px bg-parchment/20" />
-          <span className="font-mono text-xs text-parchment/30 tracking-widest">
+          <span className="font-mono text-xs text-parchment/55 tracking-widest">
             aiswaryark111@gmail.com
           </span>
         </motion.div>
@@ -224,7 +224,7 @@ export default function Home() {
           animate={{ y: [0, 6, 0] }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
-          <ArrowDown size={14} className="text-aqua/60" />
+          <ArrowDown size={14} className="text-aqua" />
         </motion.div>
       </motion.div>
 
