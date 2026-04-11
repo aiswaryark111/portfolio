@@ -44,9 +44,9 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#home"
-          className="font-mono text-sm text-aqua tracking-widest hover:text-aqua-light transition-colors"
+          className="font-mono text-sm text-aqua tracking-widest hover:text-aqua transition-colors"
         >
-          AR<span className="text-parchment/40">.</span>
+          AR<span className="text-parchment/40"></span>
         </a>
 
         {/* Desktop Nav */}

@@ -34,7 +34,7 @@ export default function Experience() {
       className="section-padding relative overflow-hidden bg-ink-50"
     >
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none  hidden md:block">
         02
       </div>
 

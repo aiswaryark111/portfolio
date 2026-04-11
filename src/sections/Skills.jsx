@@ -208,12 +208,12 @@ function CategoryCard({ cat, meta }) {
               <span
                 className="font-mono text-[10px] tracking-widest uppercase transition-colors duration-300"
                 style={{
-                  color: cardHovered ? meta.accent : "rgba(136,136,136,0.8)",
+                  color: cardHovered ? meta.accent : "rgba(196,192,192,0.8)",
                 }}
               >
                 {cat.label}
               </span>
-              <p className="font-mono text-[9px] text-ink-300 mt-0.5">
+              <p className="font-mono text-[9px] text-ink-250 mt-0.5">
                 {cat.skills.length} technologies
               </p>
             </div>
@@ -262,8 +262,8 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-28 px-6 relative bg-ink-600">
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
-        04
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none  hidden md:block">
+        05
       </div>
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] pointer-events-none"
@@ -291,7 +291,7 @@ export default function Skills() {
 
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <ScrollReveal delay={0.15}>
-            <p className="text-ink-200 text-sm font-mono">
+            <p className="text-ink-250 text-sm font-mono">
               {totalTech}+ technologies &middot; {skillsData.categories.length}{" "}
               domains
             </p>

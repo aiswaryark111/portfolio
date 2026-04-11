@@ -282,8 +282,8 @@ export default function Projects() {
   return (
     <section id="projects" className="section-padding relative overflow-hidden">
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
-        03
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none  hidden md:block">
+        04
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">

@@ -23,7 +23,8 @@
   ],
   "award": {
     "title": "Award of Excellence",
-    "description": "Recognized for consistently exceeding performance expectations and delivering exceptional value at Experion Technologies",
-    "year": "2023"
+    "org": "Experion Technologies",
+    "year": "2023",
+    "description": "Recognised for consistently exceeding performance expectations and delivering exceptional value to organisational objectives."
   }
 }

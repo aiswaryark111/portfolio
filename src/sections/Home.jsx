@@ -94,7 +94,7 @@ export default function Home() {
 
       {/* Vertical line accent */}
       <div
-        className="absolute left-6 md:left-12 top-0 bottom-0 w-px"
+        className="absolute left-6 md:left-12 top-0 bottom-0 w-px hidden md:block"
         style={{
           background:
             "linear-gradient(to bottom, transparent, rgba(45,212,191,0.3), transparent)",
@@ -204,10 +204,10 @@ export default function Home() {
           >
             <Mail size={18} />
           </a>
-          <div className="w-16 h-px bg-parchment/20" />
-          <span className="font-mono text-xs text-parchment/55 tracking-widest sm:block">
+          {/* <div className="w-16 h-px bg-parchment/20" /> */}
+          {/* <span className="font-mono text-xs text-parchment/55 tracking-widest sm:block">
             aiswaryark111@gmail.com
-          </span>
+          </span> */}
         </motion.div>
       </div>
 
@@ -216,9 +216,9 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-10 right-6 md:right-12 flex flex-col items-center gap-2"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-parchment/30 rotate-90 mb-4">
+        <span className="font-mono text-[10px] tracking-[0.3em] uppercase text-parchment/30 mb-4">
           Scroll
         </span>
         <motion.div

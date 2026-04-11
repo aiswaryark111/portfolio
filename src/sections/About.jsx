@@ -32,7 +32,7 @@ export default function About() {
   return (
     <section id="about" className="section-padding relative overflow-hidden">
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none  hidden md:block">
         01
       </div>
 

@@ -69,8 +69,8 @@ export default function Contact() {
   return (
     <section id="contact" className="section-padding relative overflow-hidden">
       {/* Section number */}
-      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none">
-        05
+      <div className="absolute right-6 md:right-12 top-24 font-serif text-[60px] md:text-[120px] text-ink-200 font-light leading-none select-none pointer-events-none hidden md:block">
+        06
       </div>
 
       {/* Ambient light */}
@@ -209,28 +209,34 @@ export default function Contact() {
               <span className="w-px h-3 bg-aqua/20" />
 
               {/* Text */}
-              <span className="font-mono text-[11px] tracking-widest uppercase text-aqua/80">
-                {personalInfo.availability}
-              </span>
+              <a
+                href={links.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="font-mono text-[11px] tracking-widest uppercase text-aqua/80">
+                  {personalInfo.availability}
+                </span>
+              </a>
             </motion.div>
           </motion.div>
         </div>
 
         {/* Footer */}
-        <motion.div
+        {/* <motion.div
           variants={fadeUp}
           custom={6}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
           className="mt-24 pt-8 border-t border-ink-300 text-center"
-        >
-          {/* <span className="font-mono text-xs text-parchment/45">
+        > */}
+        {/* <span className="font-mono text-xs text-parchment/45">
             © 2025 Aiswarya Radhakrishnan
           </span> */}
-          <span className="font-mono text-xs text-parchment/45">
+        {/* <span className="font-mono text-xs text-parchment/45">
             Built with React · Tailwind CSS · Framer Motion
-          </span>
-          {/* <div className="flex gap-4">
+          </span> */}
+        {/* <div className="flex gap-4">
             {links.social.map((s) => (
               <a
                 key={s.label}
@@ -243,7 +249,7 @@ export default function Contact() {
               </a>
             ))}
           </div> */}
-        </motion.div>
+        {/* </motion.div> */}
       </div>
     </section>
   );
