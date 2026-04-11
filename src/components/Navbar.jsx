@@ -106,7 +106,7 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-ink-50 border-b border-ink-300 overflow-hidden"
           >
-            <ul className="px-6 py-6 flex flex-col gap-4">
+            {/* <ul className="px-6 py-6 flex flex-col gap-4">
               {NAV_LINKS.map(({ label, href }) => (
                 <li key={href}>
                   <a
@@ -116,6 +116,24 @@ export default function Navbar() {
                   >
                     {label}
                   </a>
+                </li>
+              ))}
+            </ul> */}
+            <ul className="px-6 py-6 flex flex-col gap-4">
+              {NAV_LINKS.map(({ label, href }) => (
+                <li key={href}>
+                  <button
+                    onClick={() => {
+                      setMenuOpen(false);
+                      setTimeout(() => {
+                        const el = document.querySelector(href);
+                        if (el) el.scrollIntoView({ behavior: "smooth" });
+                      }, 300);
+                    }}
+                    className="font-mono text-sm tracking-widest uppercase text-parchment/60 hover:text-aqua transition-colors w-full text-left"
+                  >
+                    {label}
+                  </button>
                 </li>
               ))}
             </ul>
