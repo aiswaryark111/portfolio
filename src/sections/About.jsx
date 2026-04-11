@@ -146,39 +146,6 @@ export default function About() {
           </motion.div>
 
           {/* Award */}
-          <motion.div
-            variants={fadeUp}
-            custom={4}
-            initial="hidden"
-            animate={eduInView ? "visible" : "hidden"}
-            className="relative border border-aqua/20 p-6 overflow-hidden group hover:border-aqua/40 transition-all duration-500"
-          >
-            {/* Glow on hover */}
-            <div
-              className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              style={{
-                background:
-                  "radial-gradient(circle at 30% 50%, rgba(45,212,191,0.04), transparent 70%)",
-              }}
-            />
-
-            <div className="flex items-start gap-4 relative z-10">
-              <div className="w-10 h-10 bg-aqua/10 border border-aqua/30 flex items-center justify-center flex-shrink-0">
-                <Award size={16} className="text-aqua" />
-              </div>
-              <div>
-                <p className="font-mono text-xs text-aqua tracking-widest uppercase mb-1">
-                  {personalInfo.award.year}
-                </p>
-                <h3 className="font-serif text-parchment text-lg font-semibold mb-2">
-                  {personalInfo.award.title}
-                </h3>
-                <p className="font-sans text-xs text-parchment/75 leading-relaxed">
-                  {personalInfo.award.description}
-                </p>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>
