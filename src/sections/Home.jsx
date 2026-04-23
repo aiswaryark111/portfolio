@@ -7,7 +7,7 @@ import links from "../data/links.json";
 const ROLES = [
   "Full-Stack Software Engineer",
   "React & React Native Developer",
-  "NestJS Backend Engineer",
+  "Node.js Backend Engineer",
   "AWS Serverless Developer",
 ];
 
