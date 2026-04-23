@@ -65,5 +65,62 @@
     "github": "https://github.com/aiswaryark111",
     "live": null,
     "color": "#818cf8"
+  },
+  {
+    "id": 3,
+    "title": "ESG Emissions Platform",
+    "subtitle": "Enterprise Sustainability Dashboard",
+    "description": "Enterprise carbon emissions and ESG metrics platform with GRI, SASB, and TCFD compliance, built with React, Redux, and Firebase real-time sync.",
+    "longDescription": "Led full ownership of ESG module following knowledge transfer. Implemented client-specific calculation logic, real-time Firestore snapshot listeners, and ensured compliance across three major ESG frameworks for enterprise clients.",
+    "tags": ["React", "Redux", "Firebase", "Firestore", "GRI/SASB/TCFD"],
+    "highlights": [
+      "GRI, SASB & TCFD compliance reporting",
+      "Real-time data sync via Firebase Firestore snapshot listeners",
+      "Mastered full ESG module via knowledge transfer and took sole ownership",
+      "Client-specific ESG calculation logic",
+      "Cross-functional team coordination"
+    ],
+    "github": null,
+    "live": null,
+    "featured": false,
+    "color": "#34D399"
+  },
+  {
+    "id": 4,
+    "title": "EV Charging App",
+    "subtitle": "Multi-Tenant Mobile Application",
+    "description": "A React Native multi-tenant app for EV charging station discovery, real-time availability, and integrated payment processing with Redux state management.",
+    "longDescription": "Built a production mobile application for EV charging station discovery and payment processing across multiple tenants. Managed complex application state with Redux and ensured reliability through comprehensive Jest testing.",
+    "tags": ["React Native", "Redux", "Jest", "Payment Processing", "Firebase"],
+    "highlights": [
+      "Multi-tenant architecture",
+      "Real-time station availability",
+      "Integrated payment processing",
+      "85%+ Jest test coverage",
+      "Redux state management"
+    ],
+    "github": null,
+    "live": null,
+    "featured": false,
+    "color": "#A78BFA"
+  },
+  {
+    "id": 5,
+    "title": "TalentPortal",
+    "subtitle": "Full-Stack Recruitment Platform",
+    "description": "End-to-end talent acquisition portal with candidate shortlisting, interview scheduling, applicant tracking, and JWT-secured NestJS API.",
+    "longDescription": "Designed and developed a full-stack recruitment system using Angular and PostgreSQL. Built RESTful APIs with NestJS implementing JWT authentication, role-based authorization, and Swagger documentation.",
+    "tags": ["Angular", "NestJS", "PostgreSQL", "JWT", "Swagger"],
+    "highlights": [
+      "Candidate shortlisting & interview scheduling",
+      "JWT authentication & role-based authorization",
+      "Swagger/OpenAPI documentation",
+      "Responsive Angular UI with form validation",
+      "Optimized PostgreSQL schema design"
+    ],
+    "github": null,
+    "live": null,
+    "featured": false,
+    "color": "#F59E0B"
   }
 ]
