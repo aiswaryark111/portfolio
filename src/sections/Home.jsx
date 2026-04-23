@@ -5,8 +5,10 @@ import personalInfo from "../data/personalInfo.json";
 import links from "../data/links.json";
 
 const ROLES = [
-  "Full-Stack Engineer",
-  "React Developer / React Native Developer",
+  "Full-Stack Software Engineer",
+  "React & React Native Developer",
+  "NestJS Backend Engineer",
+  "AWS Serverless Developer",
 ];
 
 function TypewriterText({ texts }) {
