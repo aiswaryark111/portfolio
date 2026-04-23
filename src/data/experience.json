@@ -1,25 +1,27 @@
 [
   {
-    "id": 1,
+    "id": "experion",
     "role": "Software Engineer",
     "company": "Experion Technologies",
     "location": "Kerala, India",
     "period": "Sep 2021 – Aug 2024",
     "duration": "3 years",
     "type": "Full-time",
-    "summary": "Full-stack engineer owning end-to-end features across 3 product verticals — from UI to production APIs.",
+    "summary": "Full-stack engineer owning features end-to-end across 3 product verticals — from UI to production APIs.",
     "highlights": [
+      "Built and consumed RESTful APIs using NestJS and TypeScript, implementing JWT authentication, role-based authorization, and Swagger/OpenAPI documentation",
       "Led end-to-end ownership of critical modules across sustainability, mobility, and recruitment domains, coordinating cross-functional teams",
       "Acted as client liaison, gathering requirements and supporting technical specification development",
-      "Established code quality standards through reviews, reducing production bugs by 40% and mentoring 4 junior developers",
-      "Implemented Jest unit tests achieving 85% coverage, reducing production bugs by 35%",
+      "Received end-to-end knowledge transfer of ESG module, mastered its workflows, and implemented client-specific calculation logic",
       "Developed enterprise platform for carbon emissions and ESG metrics with GRI, SASB, and TCFD compliance using React and Redux",
-      "Implemented Firebase backend with Firestore and snapshot listeners for real-time data synchronization",
-      "Built a multi-tenant React Native application for EV charging station discovery and payment processing",
-      "Designed and developed a full-stack talent acquisition portal featuring candidate shortlisting, interview scheduling, and applicant tracking",
-      "Built RESTful APIs with NestJS, implementing JWT authentication, role-based authorization, and Swagger documentation"
+      "Implemented Firebase backend with Firestore and snapshot listeners for real-time data synchronisation",
+      "Built multi-tenant React Native application for EV charging station discovery and payment processing with Redux state management",
+      "Designed full-stack talent acquisition portal with Angular frontend, NestJS API layer, and PostgreSQL database",
+      "Established code quality standards reducing production bugs by 40%, mentored 4 junior developers, and achieved 85% Jest test coverage",
+      "Managed version control with Git and Azure Repos using branching strategies within Agile/Scrum framework"
     ],
     "technologies": [
+      "TypeScript",
       "React",
       "React Native",
       "Angular",
@@ -28,7 +30,8 @@
       "Firebase",
       "Redux",
       "Jest",
-      "TypeScript"
+      "Azure Repos",
+      "Jira"
     ],
     "metrics": [
       { "label": "Bug Reduction", "value": "40%" },

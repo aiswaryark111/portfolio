@@ -28,7 +28,20 @@
       ]
     },
     {
-      "label": "Database & Cloud",
+      "label": "AWS & Cloud",
+      "icon": "cloud",
+      "skills": [
+        "Lambda",
+        "API Gateway",
+        "S3",
+        "CloudFront",
+        "SSM Parameter Store",
+        "CloudWatch",
+        "IAM"
+      ]
+    },
+    {
+      "label": "Database",
       "icon": "database",
       "skills": [
         "PostgreSQL",
@@ -36,7 +49,6 @@
         "Firestore",
         "Firebase",
         "Supabase",
-        "Google Cloud Platform",
         "TypeORM"
       ]
     },
@@ -44,33 +56,19 @@
       "label": "DevOps & Tools",
       "icon": "git",
       "skills": [
+        "GitHub Actions",
         "Git",
-        "GitHub",
         "Azure Repos",
         "Jenkins",
+        "Serverless Framework",
         "Jira",
-        "Vercel",
-        "Render",
-        "Postman",
-        "Jest"
+        "Postman"
       ]
     },
     {
       "label": "Languages",
       "icon": "code",
-      "skills": ["TypeScript", "JavaScript", "Python", "SQL", "HTML", "CSS"]
-    },
-    {
-      "label": "Core CS",
-      "icon": "cpu",
-      "skills": [
-        "Algorithms",
-        "Data Structures",
-        "OOP",
-        "System Design",
-        "Agile/Scrum",
-        "Problem Solving"
-      ]
+      "skills": ["TypeScript", "JavaScript", "Python", "SQL"]
     }
   ]
 }
